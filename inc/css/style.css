@@ -158,11 +158,24 @@
   
 }
 
-.questions div {
-  border: 1px solid black;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: white;
+
+.reponse_A, .reponse_B, .reponse_C, .reponse_D, .oui, .non {
+  background-color: #f7f7f7;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reponse_A:hover, .reponse_B:hover, .reponse_C:hover, .reponse_D:hover {
+  background-color: #ebebeb;
+}
+
+.reponse_A.selected, .reponse_B.selected, .reponse_C.selected, .reponse_D.selected {
+  background-color:grey;
+  color: #fff;
 }
 
 
