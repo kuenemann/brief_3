@@ -195,4 +195,4 @@ for (const reponse of reponses) {
  boutonFinQuiz?.addEventListener("click", () => {
   location.reload();
 } )
-
+ 
